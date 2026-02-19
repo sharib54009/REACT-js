@@ -8,27 +8,44 @@
   body {
     height: 100%;
     width: 100%;
+    
+    
   }
 
   .parent {
     height: 100vh;
     width: 100%;
-    background-color: #111 ;
+    background-color: whitesmoke;
     padding: 30px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
 .card {
   width: 400px;
-  height: 500px;
-  background-color: whitesmoke;
+  min-height: 450px;
+  max-height: 520px;
+  background-color: white;
   border-radius: 30px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;   /* better than space-evenly */
   justify-content: space-between;
-  overflow: auto;
-  
+  overflow-y: auto;
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 
+    0 20px 35px rgba(0, 0, 0, 0.12),
+    0 8px 15px rgba(0, 0, 0, 0.08);
 }
 
 
@@ -37,7 +54,7 @@
     height: 80px;
     object-fit: cover;
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.069);
+    border: 1px solid rgba(0, 0, 0, 0.567);
     padding: 2px;
   }
 
@@ -65,7 +82,7 @@
 
   
   .center h3 {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 7800;
   }
 

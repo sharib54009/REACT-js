@@ -1,3 +1,71 @@
+## Job Card UI (Practice Project)
+
+This is a simple Job Card UI built using HTML, CSS, JavaScript and React 
+
+The purpose of this project was to practice:
+
+Component structure
+
+Props usage (if React)
+
+Flexbox layout
+
+UI spacing and alignment
+
+Rendering dynamic job data from an array
+
+## Features
+
+Displays multiple job cards
+
+Company logo
+
+Company name
+
+Date posted
+
+Job role
+
+Job type (Full Time / Part Time)
+
+Experience level (Junior / Mid / Senior)
+
+Pay per hour
+
+Location
+
+Clean modern UI with hover effects
+
+Scrollable card layout
+
+## Tech Stack
+
+HTML
+
+CSS (Flexbox)
+
+JavaScript
+
+React.js 
+
+## What I Practiced
+
+Creating reusable UI components
+
+Mapping over arrays to render data
+
+Styling with Flexbox
+
+Managing spacing and layout
+
+Writing clean structured CSS
+
+## Project Status
+
+This is a practice project created while learning frontend development.
+More features and improvements will be added in future.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
