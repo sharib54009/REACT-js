@@ -78,6 +78,17 @@
     background-color: transparent;
     font-weight: 500;
     font-size: larger;
+     box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .top button:active {
+    transform: translateY(-5px);
+    box-shadow: 
+    0 20px 35px rgba(0, 0, 0, 0.12),
+    0 8px 15px rgba(0, 0, 0, 0.08);
   }
 
   
@@ -131,9 +142,19 @@
     column-width: 600;
     height: 40px;
     width: 125px;
-
-
+      box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+  .bottom button:active {
+    transform: translateY(-5px);
+    box-shadow: 
+    0 20px 35px rgba(0, 0, 0, 0.12),
+    0 8px 15px rgba(0, 0, 0, 0.08);
+  }
+
    .bottom h3{
     font-size: 25px;
     font-weight: 700;
