@@ -1,18 +1,13 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
+import RightCardContent from './RightCardContent'
 
-const RightCard = () => {
+const RightCard = (props) => {
   return (
-    <div className='h-full w-80 overflow-hidden rounded-4xl relative'>
-        <img  className=" w-full h-full object-cover rounded-4xl" src="" alt="" />
-        <div className='absolute top-0 left-0 w-full h-full  bg-amber-600 pAQō-6'>  
-         <h2 className='bg-white  text-black'>1</h2>
-        <div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sequi illo voluptas magni amet ullam.</p>
-            <button>Satisfied <ArrowRight /></button>
-        </div>
-        </div>
-       
+    <div className='h-full w-80 shrink-0 overflow-hidden rounded-4xl relative [box-shadow:0_20px_50px_rgba(0,0,0,0.5)]'>
+        <img  className=" w-full h-full object-cover rounded-4xl" src={props.img} alt="" />
+        
+       <RightCardContent  id={props.id} tag={props.tag} />
     </div>
   )
 }
