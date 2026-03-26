@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+.p {
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  padding: 20px;
+  margin: 20px;
+  background-color: gray;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  background-color: gray;
+  border-radius: 20px;
+  border: none;
+}
