@@ -34,3 +34,29 @@ I then built a simple Notes App where I practiced adding, displaying, and removi
 After that, I learned how to use browser local storage. I used it to save data so that it would still be available even after refreshing the page.
 
 I also started working with APIs and learned how to fetch data from external sources and display it inside a React application.
+
+
+## Effects, Routing and Context API
+
+I continued with `useEffect` to understand how React handles side effects and how it can be used when working with things like API calls.
+
+I also built a small Gallery Project where I combined different concepts I had learned so far, including state, effects, API calls, and rendering data dynamically.
+
+After that, I started learning React Router DOM. I learned how to create different routes, move between pages, use links, and work with route parameters.
+
+I then moved on to advanced routing concepts such as nested routes and dynamic routes.
+
+Finally, I learned about the Context API and how it can be used to share data between components without passing props through every component.
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- React Router DOM
+- Context API
+- REST APIs
+- Local Storage
+
+This repository is mainly a record of my React learning and practice. I will keep adding more concepts and projects as I continue learning.
